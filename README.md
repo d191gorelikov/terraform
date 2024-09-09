@@ -1,25 +1,7 @@
 Структура проекта
 
-**.
-├── ReadMe.md
-├── main.tf
-├── modules
-│     ├── tf-yc-instance
-│    │    ├── ReadMe.md
-│    │    ├── main.tf
-│    │    ├── outputs.tf
-│    │    ├── variables.tf
-│    │    └── versions.tf
-│    └── tf-yc-network
-│         ├── ReadMe.md
-│         ├── main.tf
-│         ├── outputs.tf
-│         ├── variables.tf
-│         └── versions.tf
-├── outputs.tf
-├── provider.tf
-├── variables.tf
-└── versions.tf**
+![image](https://github.com/user-attachments/assets/4ef460f1-7cc1-4c42-80a6-c38a81924ef3)
+
 
 **В проекте существует три модуля:**
 - Основной модуль (корневой)
@@ -31,6 +13,7 @@ terraform init:
 ![image](https://github.com/user-attachments/assets/2f48193c-c6a0-4c1e-9703-49b8ae779400)
 
 terraform validate:
+
 ![image](https://github.com/user-attachments/assets/3543e69c-e69c-4fbb-8f6d-72ae68c20653)
 
 terraform plan:
